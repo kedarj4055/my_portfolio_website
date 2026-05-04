@@ -204,6 +204,66 @@
         html {
             scroll-behavior: smooth;
         }
+        @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    .firstsection > div {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+        margin: 20px 15px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .leftsection .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .rightsection img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 30px 20px;
+    }
+
+    #education, #about, #contact {
+        padding: 30px 20px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
     </style>
 </head>
 
